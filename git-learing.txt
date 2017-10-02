@@ -1,0 +1,19 @@
+Git
+
+intialize the repository:
+git init
+
+(git config --global user.name "Your name"/ user.email "email@example.com"
+
+add file to the Git repository:
+git add <file> (can be repeated, can add multiple files)
+git commit -m "(note)"
+
+workspace status:
+git status
+
+view difference
+git diff
+
+
+
