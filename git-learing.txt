@@ -15,5 +15,30 @@ git status
 view difference
 git diff
 
+HEAD represents the current version, to change the version
+git reset --hard commit_id(HEAD^ represents the last version)
+
+view the commit history
+git log
+
+view the command history
+git reflog
+
+modify
+git checkout --file  git reset HEAD file
+
+delete
+git rm
+
+associate the Github
+git remote add origin git@server-name:path/repo-name.git
+
+Push all the contents of the master branch for the first time
+git push -u origin master
+
+Push the latest changes
+git push origin master
+
+
 
 
