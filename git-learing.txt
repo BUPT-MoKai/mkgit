@@ -39,6 +39,10 @@ git push -u origin master
 Push the latest changes
 git push origin master
 
-
+解决`向github提交代码是老要输入用户名密码
+在命令行输入命令:git config --global credential.helper store
+这一步会在用户目录下的.gitconfig文件最后添加: 
+[credential]
+     helper = store
 
 
